@@ -1,0 +1,18 @@
+{
+  "name": "emailing-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "both": "concurrently \"npm --prefix ./frontend start\" \"nodemon ./backend/index.js\""
+  },
+  "author": "Himesh Maniyar",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
